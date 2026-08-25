@@ -97,6 +97,7 @@ h1 {
   flex-direction: column;
   background-color: #fff; /* opcional, pra cobrir o fundo */; 
   align-items: center;
+  gap: 12px;
 } 
 
 .cartao-verso { 
