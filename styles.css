@@ -53,8 +53,8 @@ section {
 }
 
 .cartao {
-width: 260px;
-height: 200px;
+width: 400px;
+height: 340px;
 perspective: 1000px; /* dá profundidade ao efeito de virar */
 }
 
