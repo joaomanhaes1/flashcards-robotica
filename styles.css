@@ -17,13 +17,13 @@ main {
 }
 
 footer { 
-  background-color: #7e3e1c; 
+  background-color: #3c7cf3; 
   padding: 15px 25px; 
   color: #fff; 
 }
 
 .cabecalho { 
-background-color: #7e3e1c;
+background-color: #3c7cf3;
   display: flex; 
   justify-content: space-between; 
   align-items: center; 
@@ -38,6 +38,7 @@ section {
 .cartao {
 width: 260px;
 height: 200px;
+align-items: center;
 }
 
 .cartao-imagem {
@@ -52,6 +53,7 @@ width: 100%;
 h1 { 
   color: #fff; 
   font-size: 24px; 
+  align-self: center;
 } 
 
 .cartao-interno { 
