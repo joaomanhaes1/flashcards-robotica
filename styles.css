@@ -13,6 +13,10 @@ body {
   font-family: "Poppins";
 } 
 
+h2 {
+  font-size: 20px;
+}
+
 main {
     flex: 1;
     display: flex;
@@ -25,6 +29,7 @@ footer {
   padding: 15px 25px; 
   color: #fff; 
   display: flex; 
+  flex-direction: column;
   justify-content: space-between; 
   align-items: center; 
 }
@@ -33,6 +38,7 @@ footer {
 background-color: #3c7cf3;
   display: flex; 
   justify-content: space-between; 
+  flex-direction: column;
   align-items: center; 
   padding: 15px 25px; 
 } 
