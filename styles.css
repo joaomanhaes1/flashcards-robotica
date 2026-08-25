@@ -98,7 +98,7 @@ h1 {
   background-color: #fff; /* opcional, pra cobrir o fundo */; 
   align-items: center;
   gap: 12px;
-  margin: 12px, 12px, 12px, 12px;
+  margin-left: 12px;
 } 
 
 .cartao-verso { 
