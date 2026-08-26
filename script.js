@@ -1,6 +1,6 @@
 const botao = document.getElementById("botao-tema");
 
-// Verifica se já tinha um tema salvo
+
 if (localStorage.getItem("tema") === "escuro") {
   document.body.classList.add("escuro");
   botao.textContent = "Modo Claro";
@@ -17,3 +17,9 @@ botao.addEventListener("click", () => {
     botao.textContent = "Modo Escuro";
   }
 });
+
+const botao = document.querySelector('#botao-tema');
+
+botao.addEventListener('click', function() {
+  document.querySelector('body').classList.toggle('escuro');
+  });
