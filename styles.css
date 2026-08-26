@@ -25,7 +25,7 @@ main {
 }
 
 footer { 
-  background-color: #3c7cf3; 
+  background-color: #1265ff; 
   padding: 15px 25px; 
   color: #fff; 
   display: flex; 
@@ -35,7 +35,7 @@ footer {
 }
 
 .cabecalho { 
-background-color: #3c7cf3;
+background-color: #1265ff;
   display: flex; 
   justify-content: space-between; 
   flex-direction: column;
