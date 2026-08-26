@@ -110,7 +110,7 @@ h1 {
   overflow: hidden; /* evita que a imagem "estoure" o card */
   display: flex;
   flex-direction: column;
-  background-color: var(--cor-cartao); /* opcional, pra cobrir o fundo */; 
+  background-color: white; /* opcional, pra cobrir o fundo */; 
   align-items: center;
   gap: 12px;
   
