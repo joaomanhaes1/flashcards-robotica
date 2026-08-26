@@ -44,8 +44,10 @@ background-color: #3c7cf3;
 } 
 
 section { 
-  display: flex; 
-  gap: 16px; 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  justify-items: center;
 } 
 
 .nome-site h1 {
