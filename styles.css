@@ -2,12 +2,14 @@
   --cor-fundo: #f5f2f2;
   --cor-texto: #000;
   --cor-cartao: #fff;
+  --cor-texto: #000;
 }
 
 body.escuro {
   --cor-fundo: #1a1a1a;
   --cor-texto: #f5f2f2;
   --cor-cartao: #ffffff;
+   --cor-texto: #fff;
 }
 
 
@@ -28,6 +30,7 @@ body {
 
 h2 {
   font-size: 20px;
+  color: var(--cor-texto)
 }
 
 main {
