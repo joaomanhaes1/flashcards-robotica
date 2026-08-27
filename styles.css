@@ -82,6 +82,12 @@ perspective: 1000px; /* dá profundidade ao efeito de virar */
   object-fit: cover;
 }
 
+.cartao-imagem2 {
+  width: 100%;
+  height: 240px; /* altura fixa pra imagem não definir o tamanho do card */
+  object-fit: cover;
+}
+
 .cabecalho-link { 
   color: #fff; 
   text-decoration: none; 
