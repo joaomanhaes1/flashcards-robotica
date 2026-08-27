@@ -1,5 +1,3 @@
-
-
 const botao = document.querySelector('#botao-tema');
 
 botao.addEventListener('click', function() {
