@@ -116,10 +116,10 @@ h1 {
   border-radius: 12px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
   backface-visibility: hidden;
-  overflow: hidden; /* evita que a imagem "estoure" o card */
+  overflow: hidden; 
   display: flex;
   flex-direction: column;
-  background-color: white; /* opcional, pra cobrir o fundo */; 
+  background-color: var(--cor-cartao); 
   align-items: center;
   gap: 12px;
   color: var(--cor-texto);
